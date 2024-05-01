@@ -1,0 +1,41 @@
+body{
+    font-family: Helvetica;
+    background-color: hsl(0, 0%, 90%);
+}
+form{
+    background-color: white;
+    max-width: 400px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.3);
+}
+input{
+    font-size: 1em;
+}
+h1{
+    text-align: center;
+}
+#container{
+    text-align: center;
+}
+button{
+    margin-bottom: 15px;
+    font-size: 1em;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(200, 100%, 50%);
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(200, 100%, 60%);
+}
+button:active{
+    background-color: hsl(200, 100%, 40%);
+}
+#password{
+    font-size: 1.2em;
+    text-align: center;
+}
